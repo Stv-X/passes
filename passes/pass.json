@@ -1,170 +1,123 @@
 {
-  "managementURL": "https://example.com/manage/SK042",
-  "changeSeatURL": "https://example.com/seats/SK042",
-  "purchaseWifiURL": "https://example.com/wifi/SK042",
-  "orderFoodURL": "https://example.com/meals/SK042",
-  "upgradeURL": "https://example.com/upgrade/SK042",
-  "purchaseAdditionalBaggageURL": "https://example.com/baggage/SK042",
-  "purchaseLoungeAccessURL": "https://example.com/lounge/SK042",
-  "requestWheelchairURL": "https://example.com/accessibility/wheelchair/SK042",
-  "registerServiceAnimalURL": "https://example.com/accessibility/service-animal/SK042",
-  "reportLostBagURL": "https://example.com/bags/lost/SK042",
-  "trackBagURL": "https://example.com/bags/SK042",
-  "transitProviderPhoneNumber": "+14155550101",
-  "transitProviderEmail": "support@example.com",
-  "transitProviderWebsiteURL": "https://example.com/airline",
+  "transitProviderPhoneNumber": "+862195524",
+  "transitProviderWebsiteURL": "https://ch.com",
   "formatVersion": 1,
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "61567B2652388174",
-  "organizationName": "Passes",
-  "description": "Apple Wallet Passes",
+  "organizationName": "春秋航空",
+  "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
   "backgroundColor": "rgb(16, 185, 129)",
   "labelColor": "rgb(209, 250, 229)",
   "boardingPass": {
     "headerFields": [
       {
-        "key": "h1",
-        "label": "GATE",
-        "value": "C18"
-      },
-      {
-        "key": "h2",
+        "key": "seat",
         "label": "SEAT",
-        "value": "2A"
+        "value": "30A"
       }
     ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Hakodate",
-        "value": "HKD"
+        "label": "上海浦东",
+        "value": "PVG"
       },
       {
         "key": "to",
-        "label": "Nagoya",
-        "value": "NGO"
+        "label": "冲绳那霸",
+        "value": "OKA"
       }
     ],
     "secondaryFields": [
       {
-        "key": "s1",
+        "key": "passenger",
         "label": "PASSENGER",
-        "value": "Holder 4891"
+        "value": "徐嗣苗"
       },
       {
-        "key": "s2",
+        "key": "flight",
         "label": "FLIGHT",
-        "value": "KA 120"
+        "value": "9C6245"
       }
     ],
     "auxiliaryFields": [
       {
-        "key": "dep",
+        "key": "boards",
         "label": "BOARDS",
-        "value": "16:28"
+        "value": "10:35"
       },
       {
-        "key": "arr",
-        "label": "ARRIVES",
-        "value": "22:38"
-      }
-    ],
-    "backFields": [
+        "key": "terminal",
+        "label": "TERM",
+        "value": "T2"
+      },
       {
-        "key": "b1",
-        "label": "Notes",
-        "value": "Arrive at the gate at least 30 minutes before departure.",
-        "dataDetectorTypes": []
+        "key": "arrives",
+        "label": "ARRIVES",
+        "value": "14:00"
       }
     ],
     "transitType": "PKTransitTypeAir"
   },
-  "logoText": "Passes",
   "semantics": {
-    "airlineCode": "KA",
+    "airlineCode": "9C",
     "flightCode": "KA120",
-    "flightNumber": 120,
-    "confirmationNumber": "9X2K7Q",
-    "departureAirportCode": "HKD",
-    "departureAirportName": "San Francisco International Airport",
-    "departureCityName": "San Francisco",
-    "departureLocationTimeZone": "America/Los_Angeles",
-    "destinationAirportCode": "NGO",
-    "destinationAirportName": "John F. Kennedy International Airport",
-    "destinationCityName": "New York",
-    "destinationLocationTimeZone": "America/New_York",
-    "originalBoardingDate": "2026-05-19T08:28:30.273Z",
-    "originalDepartureDate": "2026-05-19T09:08:30.273Z",
-    "originalArrivalDate": "2026-05-19T14:38:30.273Z",
-    "currentDepartureDate": "2026-05-19T09:08:30.273Z",
-    "currentArrivalDate": "2026-05-19T14:38:30.273Z",
-    "passengerName": {
-      "givenName": "Holder",
-      "familyName": "4891"
-    },
-    "departureGate": "B14",
-    "departureTerminal": "2",
+    "flightNumber": 6245,
+    "confirmationNumber": "BKFJSTD",
+    "departureAirportName": "上海浦东国际机场",
+    "departureLocationTimeZone": "Asia/Shanghai",
+    "destinationLocationTimeZone": "Asia/Tokyo",
+    "originalBoardingDate": "2026-05-23T02:35:00.000Z",
+    "originalDepartureDate": "2026-05-23T02:35:00.000Z",
+    "originalArrivalDate": "2026-05-23T05:00:00.000Z",
+    "currentArrivalDate": "2026-05-23T05:00:00.000Z",
     "departureLocation": {
-      "latitude": 37.6213,
-      "longitude": -122.379
+      "latitude": 31.143378,
+      "longitude": 121.805214
     },
     "destinationGate": "A8",
     "destinationTerminal": "4",
     "destinationLocation": {
-      "latitude": 40.6413,
-      "longitude": -73.7781
+      "latitude": 26.19581,
+      "longitude": 127.64587
     },
-    "boardingGroup": "2",
-    "boardingSequenceNumber": "038",
-    "boardingZone": "A",
-    "ticketFareClass": "Economy",
-    "transitProvider": "Scandinavian Airlines",
     "transitStatus": "On Time",
     "securityScreening": "TSA PreCheck",
-    "priorityStatus": "Priority",
     "membershipProgramName": "Kumo Miles",
     "membershipProgramNumber": "SK123456789",
-    "membershipProgramStatus": "Gold",
     "vehicleName": "Airbus A350",
     "vehicleNumber": "SE-RSA",
     "vehicleType": "Airplane",
-    "internationalDocumentsAreVerified": true,
-    "internationalDocumentsVerifiedDeclarationName": "DOCS OK",
-    "passengerEligibleSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck"
-    ],
     "departureLocationSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck",
       "PKTransitSecurityProgramCLEAR"
-    ],
-    "destinationLocationSecurityPrograms": [
-      "PKTransitSecurityProgramTSAPreCheck"
     ],
     "loungePlaceIDs": [
       "SK-SFO-LOUNGE"
-    ],
-    "passengerCapabilities": [
-      "PKPassengerCapabilityCarryon",
-      "PKPassengerCapabilityPriorityBoarding"
-    ],
-    "passengerServiceSSRs": [
-      "PETC"
-    ],
-    "passengerInformationSSRs": [
-      "INFT"
     ],
     "passengerAirlineSSRs": [
       "SKY"
     ],
     "seats": [
       {
-        "seatRow": "2",
+        "seatRow": "30",
         "seatNumber": "A"
       }
     ],
-    "currentBoardingDate": "2026-05-19T08:28:30.273Z"
+    "transitProvider": "春秋航空",
+    "departureAirportCode": "PVG",
+    "destinationAirportCode": "OKA",
+    "departureTerminal": "T2",
+    "ticketFareClass": "经济舱",
+    "currentBoardingDate": "2026-05-23T02:35:00.000Z",
+    "currentDepartureDate": "2026-05-23T02:35:00.000Z",
+    "passengerName": {
+      "namePrefix": "徐嗣苗"
+    },
+    "destinationAirportName": "那霸机场",
+    "departureCityName": "上海浦东",
+    "destinationCityName": "冲绳那霸"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
@@ -178,6 +131,18 @@
       "altText": "KA 120 / 2A"
     }
   ],
+  "relevantDate": "2026-05-23T02:35:00.000Z",
+  "expirationDate": "2026-05-23T06:00:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
-  "authenticationToken": "0000000000000000"
+  "authenticationToken": "0000000000000000",
+  "associatedStoreIdentifiers": [
+    460033035
+  ],
+  "locations": [
+    {
+      "longitude": 121.805214,
+      "latitude": 31.143378,
+      "relevantText": "上海浦东国际机场2号航站楼"
+    }
+  ]
 }
