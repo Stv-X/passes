@@ -8,7 +8,7 @@
   "organizationName": "春秋航空",
   "description": "9C6245",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(25, 161, 120)",
+  "backgroundColor": "rgb(25, 161, 119)",
   "labelColor": "rgb(209, 250, 229)",
   "boardingPass": {
     "headerFields": [
@@ -63,7 +63,7 @@
   },
   "semantics": {
     "airlineCode": "9C",
-    "flightCode": "KA120",
+    "flightCode": "9C6245",
     "flightNumber": 6245,
     "confirmationNumber": "BKFJSTD",
     "departureAirportName": "上海浦东国际机场",
@@ -78,26 +78,16 @@
       "longitude": 121.805214
     },
     "destinationGate": "A8",
-    "destinationTerminal": "4",
+    "destinationTerminal": "I",
     "destinationLocation": {
       "latitude": 26.19581,
       "longitude": 127.64587
     },
     "transitStatus": "On Time",
-    "securityScreening": "TSA PreCheck",
-    "membershipProgramName": "Kumo Miles",
-    "membershipProgramNumber": "SK123456789",
-    "vehicleName": "Airbus A350",
-    "vehicleNumber": "SE-RSA",
+    "vehicleName": "Airbus 320-186",
     "vehicleType": "Airplane",
     "departureLocationSecurityPrograms": [
       "PKTransitSecurityProgramCLEAR"
-    ],
-    "loungePlaceIDs": [
-      "SK-SFO-LOUNGE"
-    ],
-    "passengerAirlineSSRs": [
-      "SKY"
     ],
     "seats": [
       {
@@ -125,24 +115,29 @@
   ],
   "barcodes": [
     {
-      "format": "PKBarcodeFormatCode128",
-      "message": "KA120-H-4891-2A",
-      "messageEncoding": "iso-8859-1",
-      "altText": "KA 120 / 2A"
+      "format": "PKBarcodeFormatPDF417",
+      "message": "M1XUSIMIAO EMMVQAB PVGKIX9C6587 137Y028F0017 100>1",
+      "messageEncoding": "iso-8859-1"
     }
   ],
   "relevantDate": "2026-05-23T02:35:00.000Z",
-  "expirationDate": "2026-05-23T06:00:00.000Z",
+  "expirationDate": "2026-05-23T05:00:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
   "authenticationToken": "0000000000000000",
   "associatedStoreIdentifiers": [
     460033035
   ],
+  "maxDistance": 1000,
   "locations": [
     {
       "longitude": 121.805214,
       "latitude": 31.143378,
-      "relevantText": "上海浦东国际机场2号航站楼"
+      "relevantText": "上海浦东国际机场T2航站楼"
+    },
+    {
+      "longitude": 127.64587,
+      "latitude": 26.19581,
+      "relevantText": "冲绳那霸机场"
     }
   ]
 }
