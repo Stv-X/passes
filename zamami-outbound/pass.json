@@ -17,71 +17,55 @@
   "passTypeIdentifier": "pass.mk.local",
   "teamIdentifier": "9733K94JUG",
   "serialNumber": "9599F1B41352EEC0",
-  "organizationName": "Zamami Outbound",
-  "description": "Boarding pass — train MR 218",
+  "organizationName": "Zamami",
+  "description": "クイーンざまみ",
   "foregroundColor": "rgb(255, 255, 255)",
-  "backgroundColor": "rgb(51, 65, 85)",
-  "labelColor": "rgb(203, 213, 225)",
+  "backgroundColor": "rgb(8, 145, 178)",
+  "labelColor": "rgb(207, 250, 254)",
   "boardingPass": {
-    "headerFields": [
-      {
-        "key": "h1",
-        "label": "CAR",
-        "value": "2"
-      },
-      {
-        "key": "h2",
-        "label": "SEAT",
-        "value": "12C"
-      }
-    ],
     "primaryFields": [
       {
         "key": "from",
-        "label": "Boston",
-        "value": "BOS"
+        "label": "TOMARI",
+        "value": "泊"
       },
       {
         "key": "to",
-        "label": "New York",
-        "value": "NYP"
+        "label": "ZAMAMI PORT",
+        "value": "座間味港\t"
       }
     ],
     "secondaryFields": [
       {
         "key": "s1",
         "label": "PASSENGER",
-        "value": "Traveler 1872"
+        "value": "XU SIMIAO"
       },
       {
         "key": "s2",
-        "label": "TRAIN",
-        "value": "MR 218"
+        "label": "TRIP",
+        "value": "QZ1"
       }
     ],
     "auxiliaryFields": [
       {
         "key": "dep",
         "label": "BOARDS",
-        "value": "8:42"
+        "value": "2026-05-25T00:00:00.000Z",
+        "dateStyle": "PKDateStyleNone",
+        "timeStyle": "PKDateStyleShort"
       },
       {
         "key": "arr",
-        "label": "ARRIVES",
-        "value": "14:52"
+        "label": "TRIP",
+        "value": "2026-05-25T00:50:00.000Z",
+        "dateStyle": "PKDateStyleNone",
+        "timeStyle": "PKDateStyleShort"
       }
     ],
-    "backFields": [
-      {
-        "key": "b1",
-        "label": "Notes",
-        "value": "Arrive at the gate at least 30 minutes before departure.",
-        "dataDetectorTypes": []
-      }
-    ],
-    "transitType": "PKTransitTypeTrain"
+    "transitType": "PKTransitTypeBoat"
   },
-  "logoText": "Zamami Outbound",
+  "logoText": "クイーンざまみ",
   "semantics": {
     "airlineCode": "SK",
     "flightCode": "SK042",
@@ -169,11 +153,20 @@
   "barcodes": [
     {
       "format": "PKBarcodeFormatQR",
-      "message": "MR218-T-1872-12C",
+      "message": "MWbEsuIWOfD8qjfEHzgneQ==",
       "messageEncoding": "iso-8859-1",
-      "altText": "MR 218 / 12C"
+      "altText": "1-2026-0421-2025-2101-0014-8"
     }
   ],
+  "relevantDate": "2026-05-25T01:00:00.000Z",
+  "expirationDate": "2026-05-25T01:50:00.000Z",
   "webServiceURL": "https://example.invalid/passkit",
-  "authenticationToken": "0000000000000000"
+  "authenticationToken": "0000000000000000",
+  "maxDistance": 1000,
+  "locations": [
+    {
+      "longitude": 127.687,
+      "latitude": 26.2234
+    }
+  ]
 }
