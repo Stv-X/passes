@@ -107,7 +107,10 @@
     },
     "destinationAirportName": "那霸机场",
     "departureCityName": "上海浦东",
-    "destinationCityName": "冲绳那霸"
+    "destinationCityName": "冲绳那霸",
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon"
+    ]
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
