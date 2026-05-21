@@ -1,0 +1,146 @@
+{
+  "transitProviderPhoneNumber": "+862195524",
+  "transitProviderWebsiteURL": "https://ch.com",
+  "formatVersion": 1,
+  "passTypeIdentifier": "pass.mk.local",
+  "teamIdentifier": "9733K94JUG",
+  "serialNumber": "EEDA31EA38DA0976",
+  "organizationName": "春秋航空",
+  "description": "9C6245",
+  "foregroundColor": "rgb(255, 255, 255)",
+  "backgroundColor": "rgb(25, 161, 119)",
+  "labelColor": "rgb(209, 250, 229)",
+  "boardingPass": {
+    "headerFields": [
+      {
+        "key": "seat",
+        "label": "SEAT",
+        "value": "30A"
+      }
+    ],
+    "primaryFields": [
+      {
+        "key": "from",
+        "label": "上海浦东",
+        "value": "PVG"
+      },
+      {
+        "key": "to",
+        "label": "冲绳那霸",
+        "value": "OKA"
+      }
+    ],
+    "secondaryFields": [
+      {
+        "key": "passenger",
+        "label": "PASSENGER",
+        "value": "徐嗣苗"
+      },
+      {
+        "key": "flight",
+        "label": "FLIGHT",
+        "value": "9C6245"
+      }
+    ],
+    "auxiliaryFields": [
+      {
+        "key": "boards",
+        "label": "BOARDS",
+        "value": "10:35"
+      },
+      {
+        "key": "terminal",
+        "label": "TERM",
+        "value": "T2"
+      },
+      {
+        "key": "arrives",
+        "label": "ARRIVES",
+        "value": "14:00"
+      }
+    ],
+    "transitType": "PKTransitTypeAir"
+  },
+  "semantics": {
+    "airlineCode": "9C",
+    "flightCode": "9C6245",
+    "flightNumber": 6245,
+    "confirmationNumber": "BKFJSTD",
+    "departureAirportName": "上海浦东国际机场",
+    "departureLocationTimeZone": "Asia/Shanghai",
+    "destinationLocationTimeZone": "Asia/Tokyo",
+    "originalBoardingDate": "2026-05-23T02:35:00.000Z",
+    "originalDepartureDate": "2026-05-23T02:35:00.000Z",
+    "originalArrivalDate": "2026-05-23T05:00:00.000Z",
+    "currentArrivalDate": "2026-05-23T05:00:00.000Z",
+    "departureLocation": {
+      "latitude": 31.143378,
+      "longitude": 121.805214
+    },
+    "destinationGate": "A8",
+    "destinationTerminal": "I",
+    "destinationLocation": {
+      "latitude": 26.19581,
+      "longitude": 127.64587
+    },
+    "transitStatus": "On Time",
+    "vehicleName": "Airbus 320-186",
+    "vehicleType": "Airplane",
+    "departureLocationSecurityPrograms": [
+      "PKTransitSecurityProgramCLEAR"
+    ],
+    "seats": [
+      {
+        "seatRow": "30",
+        "seatNumber": "A"
+      }
+    ],
+    "transitProvider": "春秋航空",
+    "departureAirportCode": "PVG",
+    "destinationAirportCode": "OKA",
+    "departureTerminal": "T2",
+    "ticketFareClass": "经济舱",
+    "currentBoardingDate": "2026-05-23T02:35:00.000Z",
+    "currentDepartureDate": "2026-05-23T02:35:00.000Z",
+    "passengerName": {
+      "namePrefix": "徐嗣苗"
+    },
+    "destinationAirportName": "那霸机场",
+    "departureCityName": "上海浦东",
+    "destinationCityName": "冲绳那霸",
+    "passengerCapabilities": [
+      "PKPassengerCapabilityCarryon"
+    ]
+  },
+  "preferredStyleSchemes": [
+    "semanticBoardingPass",
+    "boardingPass"
+  ],
+  "barcodes": [
+    {
+      "format": "PKBarcodeFormatPDF417",
+      "message": "M1XUSIMIAO EMMVQAB PVGKIX9C6587 137Y028F0017 100>1",
+      "messageEncoding": "iso-8859-1"
+    }
+  ],
+  "relevantDate": "2026-05-23T02:35:00.000Z",
+  "expirationDate": "2026-05-23T05:00:00.000Z",
+  "webServiceURL": "https://example.invalid/passkit",
+  "authenticationToken": "0000000000000000",
+  "associatedStoreIdentifiers": [
+    460033035
+  ],
+  "maxDistance": 1000,
+  "locations": [
+    {
+      "longitude": 121.805214,
+      "latitude": 31.143378,
+      "relevantText": "上海浦东国际机场T2航站楼"
+    },
+    {
+      "longitude": 127.64587,
+      "latitude": 26.19581,
+      "relevantText": "冲绳那霸机场"
+    }
+  ]
+}
