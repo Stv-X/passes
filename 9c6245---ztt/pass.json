@@ -34,7 +34,7 @@
       {
         "key": "passenger",
         "label": "PASSENGER",
-        "value": "张倩源"
+        "value": "宗婷婷"
       },
       {
         "key": "flight",
@@ -105,12 +105,12 @@
     "destinationAirportName": "那霸机场",
     "departureCityName": "上海浦东",
     "destinationCityName": "冲绳那霸",
-    "passengerName": {
-      "namePrefix": "张倩源"
-    },
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon"
-    ]
+    ],
+    "passengerName": {
+      "namePrefix": "宗婷婷"
+    }
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
