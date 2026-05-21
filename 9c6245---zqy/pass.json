@@ -34,7 +34,7 @@
       {
         "key": "passenger",
         "label": "PASSENGER",
-        "value": "徐嗣苗"
+        "value": "张倩源"
       },
       {
         "key": "flight",
@@ -102,12 +102,12 @@
     "ticketFareClass": "经济舱",
     "currentBoardingDate": "2026-05-23T02:35:00.000Z",
     "currentDepartureDate": "2026-05-23T02:35:00.000Z",
-    "passengerName": {
-      "namePrefix": "徐嗣苗"
-    },
     "destinationAirportName": "那霸机场",
     "departureCityName": "上海浦东",
     "destinationCityName": "冲绳那霸",
+    "passengerName": {
+      "namePrefix": "张倩源"
+    },
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon"
     ]
