@@ -16,6 +16,11 @@
         "key": "seat",
         "label": "SEAT",
         "value": "30A"
+      },
+      {
+        "key": "gate",
+        "label": "GATE",
+        "value": "G189"
       }
     ],
     "primaryFields": [
@@ -110,7 +115,8 @@
     "destinationCityName": "冲绳那霸",
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon"
-    ]
+    ],
+    "departureGate": "G189"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
