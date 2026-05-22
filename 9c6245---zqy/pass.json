@@ -15,7 +15,12 @@
       {
         "key": "seat",
         "label": "SEAT",
-        "value": "30A"
+        "value": "30C"
+      },
+      {
+        "key": "gate",
+        "label": "GATE",
+        "value": "G189"
       }
     ],
     "primaryFields": [
@@ -92,7 +97,7 @@
     "seats": [
       {
         "seatRow": "30",
-        "seatNumber": "A"
+        "seatNumber": "C"
       }
     ],
     "transitProvider": "春秋航空",
@@ -110,7 +115,8 @@
     },
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon"
-    ]
+    ],
+    "departureGate": "G189"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
