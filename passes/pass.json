@@ -20,7 +20,7 @@
       {
         "key": "gate",
         "label": "GATE",
-        "value": "G170"
+        "value": "170"
       }
     ],
     "primaryFields": [
@@ -116,7 +116,7 @@
     "passengerCapabilities": [
       "PKPassengerCapabilityCarryon"
     ],
-    "departureGate": "G170"
+    "departureGate": "170"
   },
   "preferredStyleSchemes": [
     "semanticBoardingPass",
